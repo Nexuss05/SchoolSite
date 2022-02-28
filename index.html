@@ -11,25 +11,6 @@
     <title>4 FESSA I SITE</title>
 </head>
 <body>  
-     <!-- <div class="title">
-
-    </div>
-    <div class="ita">
-        <h1> LIBRO ITALIANO</h1>
-        <h2> INSERISCI IL NUMERO DELLA PAGINA </h2>
-
-    </div>
-    <div class="dante">
-        <h1> LIBRO DANTE</h1>
-        <h2> INSERISCI IL NUMERO DELLA PAGINA </h2>
-
-
-        <form method="post" action="index.php">
-            <input type="text" name="pag">
-            <input type="submit" value="INVIA">
-        </form>
-
-        
     </div>  -->
     <div class="login-box">
         <div class="title">
@@ -39,28 +20,26 @@
         <hr>
         <div class="ita">
             <h2 class="title">ITALIANO</h2>
-            <form method="post" action="index.php">
+            <form method="post" action="https://tidied-soap.000webhostapp.com/index.php">
                 <div class="user-box">
-                    <input type="text" name="pag" required="">
+                    <input class="i" type="number" name="pag" required="">
                     <label>Pagina</label>
                 </div>
                 
                 <input class="send" type="submit" value="INVIA" name="n">
-                <!-- <a type="submit" href="index.php">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    Submit
-                </a> -->
+                
+                
+                <p id="values"></p>
+
+
             </form>
         </div>
         <hr>
         <div class="dan">
             <h2 class="title">DANTE</h2>
-            <form method="post" action="index.php">
+            <form method="post" action="https://tidied-soap.000webhostapp.com/index.php">
                 <div class="user-box">
-                    <input type="text" name="pag" required="">
+                    <input class="d" type="number" name="pag" required="">
                     <label>Pagina</label>
                 </div>
                     
@@ -69,5 +48,6 @@
             </form>
         </div>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
